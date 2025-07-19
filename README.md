@@ -9,7 +9,7 @@ Coding katas are short, repeatable programming challenges to help you practice y
 ### 1. Clone the Repository
 
 ```bash
-git clone git@github.com:Thavarshan/python-code-katas.git katas
+git clone git@github.com:alimulondo/python-code-katas.git katas
 cd katas
 ```
 
