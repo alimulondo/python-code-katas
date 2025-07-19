@@ -53,6 +53,7 @@ Please complete the exercises in the following order:
 5. String Calculator (`src/katas/string_calculator.py`)
 6. Unique String Finder (`src/katas/unique_string_finder.py`)
 7. Env Secret Generator (`src/katas/env_secret_generator.py`)
+8. Array Diff (`src/katas/array_diff.py`)
 
 Open each file and follow the beginner-friendly instructions inside. Write your solution in the space provided.
 
