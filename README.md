@@ -6,6 +6,21 @@ Coding katas are short, repeatable programming challenges to help you practice y
 
 ## Getting Started
 
+### Prerequisite: Install Git
+
+If you don't have git installed, please install it first:
+
+- On Ubuntu/Debian:
+  ```bash
+  sudo apt-get update
+  sudo apt-get install git
+  ```
+- On MacOS (with Homebrew):
+  ```bash
+  brew install git
+  ```
+- On Windows: Download and install from [git-scm.com](https://git-scm.com/)
+
 ### 1. Clone the Repository
 
 ```bash
