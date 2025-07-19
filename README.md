@@ -6,6 +6,10 @@ Coding katas are short, repeatable programming challenges to help you practice y
 
 ## Getting Started
 
+**Learn GitHub (YouTube):**
+- [GitHub Tutorial For Beginners - GitHub Basics for Mac or Windows & Source Control Basics](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+- [How to Use GitHub - Full Beginner's Tutorial](https://www.youtube.com/watch?v=0fKg7e37bQE)
+
 ### Prerequisite: Install Git
 
 If you don't have git installed, please install it first:
@@ -21,6 +25,10 @@ If you don't have git installed, please install it first:
   ```
 - On Windows: Download and install from [git-scm.com](https://git-scm.com/)
 
+**Learn Git (YouTube):**
+- [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+
 ### (Optional) Install GitHub Desktop
 
 If you prefer a graphical interface for git, you can use GitHub Desktop:
@@ -32,6 +40,10 @@ If you prefer a graphical interface for git, you can use GitHub Desktop:
     - Browse to the folder where you cloned this project (e.g., `katas`)
     - Click "Add Repository"
 4. You can now manage your branches, commits, and pushes via the GitHub Desktop interface.
+
+**Learn GitHub Desktop (YouTube):**
+- [GitHub Desktop Tutorial for Beginners](https://www.youtube.com/watch?v=2ReR1YJrNOM)
+- [How to Use GitHub Desktop](https://www.youtube.com/watch?v=phxWbG5i0tE)
 
 ### 1. Clone the Repository
 
