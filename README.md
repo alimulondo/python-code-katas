@@ -1,43 +1,76 @@
-# Code Katas with Python Unittest
+# Python Code Katas
 
 ## Introduction
 
-If martial artists use kata as a method for exercise and practice, what might be the equivalent for coders like us? Coding katas are short, repeatable programming challenges which are meant to exercise everything from your focus, to your workflow.
+Coding katas are short, repeatable programming challenges to help you practice your coding skills. This project provides several katas in Python, each with its own test file. You will implement each kata by following the instructions in the corresponding Python file.
 
-This was already done in PHPUnit which you can find [here](https://github.com/Thavarshan/phpunit-code-katas), so this time I'm doing it in Python.
+## Getting Started
 
-## Katas
-
-- Prime Factors
-- Roman Numerals
-- Bowling Game
-- String Calculator
-- Tennis Match
-- FizzBuzz
-- The Gilded Rose
-
-## Installation
-
-### Prerequisites
-
-To run this project, you must have Python 3.6 or higher installed.
-
-Begin by cloning this repository to your machine, and installing all dependencies dependencies.
-
-### Get Started
+### 1. Clone the Repository
 
 ```bash
 git clone git@github.com:Thavarshan/python-code-katas.git katas
-cd katas && pip install -r requirements.txt
+cd katas
 ```
 
-## Testing
-
-Just run Python unit test in the project root.
+### 2. Install Dependencies
 
 ```bash
-cd katas
-python -m venv ./venv
-source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 3. Create a Development Branch
+
+Before you start coding, create and switch to a branch called `dev`:
+
+```bash
+git checkout -b dev
+```
+
+## Exercise Order
+
+Please complete the exercises in the following order:
+
+1. FizzBuzz (`src/katas/fizz_buzz.py`)
+2. Prime Factors (`src/katas/prime_factors.py`)
+3. Read/Write JSON (`src/katas/read_write_json.py`)
+4. Roman Numerals (`src/katas/roman_numerals.py`)
+5. String Calculator (`src/katas/string_calculator.py`)
+6. Unique String Finder (`src/katas/unique_string_finder.py`)
+7. Env Secret Generator (`src/katas/env_secret_generator.py`)
+
+Open each file and follow the beginner-friendly instructions inside. Write your solution in the space provided.
+
+## Running Tests
+
+Each kata has its own test file in the `tests/` directory. You can run all tests or a single test file.
+
+### Run All Tests
+
+```bash
 python -m unittest discover tests -p '*_test.py'
 ```
+
+### Run an Individual Test
+
+For example, to run only the FizzBuzz tests:
+
+```bash
+python -m unittest tests/fizz_buzz_test.py
+```
+
+Replace `fizz_buzz_test.py` with the test file you want to run.
+
+## Submitting Your Work
+
+After you finish all exercises, you can commit your changes and push your `dev` branch to your fork or repository.
+
+```bash
+git add .
+git commit -m "Complete code katas"
+git push origin dev
+```
+
+---
+
+Happy coding! If you get stuck, read the instructions in each file carefully and try running the tests for hints.
