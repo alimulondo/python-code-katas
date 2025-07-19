@@ -21,6 +21,18 @@ If you don't have git installed, please install it first:
   ```
 - On Windows: Download and install from [git-scm.com](https://git-scm.com/)
 
+### (Optional) Install GitHub Desktop
+
+If you prefer a graphical interface for git, you can use GitHub Desktop:
+
+1. Download and install GitHub Desktop from [desktop.github.com](https://desktop.github.com/)
+2. Open GitHub Desktop and sign in with your GitHub account.
+3. To add your cloned repository:
+    - Click on "File" > "Add Local Repository..."
+    - Browse to the folder where you cloned this project (e.g., `katas`)
+    - Click "Add Repository"
+4. You can now manage your branches, commits, and pushes via the GitHub Desktop interface.
+
 ### 1. Clone the Repository
 
 ```bash
